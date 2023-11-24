@@ -12,6 +12,8 @@ import org.springframework.web.bind.annotation.RestController;
 * docker tag hello-docker:0.0.1-SNAPSHOT leandrocgsi/hello-dcoker:0.0.1-SNAPSHOT
 * docker login docker.io -> authenticação
 * docker push leandrocgsi/hello-dcoker:0.0.1-SNAPSHOT
+* se quisermos ver os logs de uma imagem executado: docker logs NUMERO_ID, ou
+* docker logs -f NUMERO_ID
 **/
 @RestController
 public class DockerController {
